@@ -1,0 +1,211 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+nav{
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 140px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+nav ul{
+	float: right;
+	margin-right:-1px;
+	margin-top: 64px;
+}
+
+nav ul li{
+	float: left;
+	list-style-type: none;
+	font-size: 15px;
+	margin-right: 30px;
+	color: white;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #1ed760;
+}
+
+
+header{
+	padding-top: 462px;
+	padding-left: 153px;
+	background-image: url("http://inquietas.com.br/wp-content/uploads/2017/02/Vida-de-mochileiro.jpg");
+	background-size: 100%;
+	padding-bottom: 189px;
+	background-repeat: no-repeat;
+}
+
+.cart-1{
+	margin-left: -3%;
+}
+.jumbo{
+	margin-top: -26%;
+	margin-left: -1%;
+	background-color: #DCDCDC!important;
+	height: 418px;
+}
+.navbar-dark .navbar-brand {
+    color: black;
+}
+.bg-light {
+    background-color:#DCDCDC!important;
+    width: 108%;
+    margin-left: -8%;
+    height: 30%;
+}
+.bg-dark {
+    background-color: #343a40!important;
+    height: 30%;
+}
+.btnpesquisa{
+	width: 17%;
+	height: 47px;
+	margin-top: -2px;
+	margin-left: 89%;
+	background-color: rgba(0,0,0,0.6);
+}
+.container{
+
+	margin-left: 10%;
+}
+.container2{
+	margin-left: 40%;
+	}
+.display-2{
+	margin-left: -1%;
+	margin-top: -33%;
+	font-size: 186%;
+}
+.display-1{
+	margin-top: 1%;
+	margin-left: 1%;
+	font-size: 174%;
+}
+.display-3{
+	margin-top: -47%;
+	margin-left: 49%;
+	font-size: 186%;
+}
+
+.list{
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+
+}
+.card{
+	width: 340px;
+	border-radius: 9px;
+	margin-left: 50px;
+	border:9px solid #BEBEBE;
+
+}
+
+.logo{
+	width: 150px;
+	margin-left: 50px;
+
+}
+.slogan{
+	color: black;
+	font-size: 75px;
+	margin-bottom: 10px;
+	margin-top: -14px;
+	margin-left: 10px;
+	margin-right: 34px;
+
+}
+.btncard{
+
+    border-radius: 13px;
+	font-size: 17px;
+	font-weight: bold;
+	
+	color: blue;
+	height: 39px;
+	margin-left: 63px;
+
+
+}
+.btn{
+	border-radius: 50px;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	height: 78px;
+	margin-left: 1px;
+}
+.btn-verde{
+	border: 1px solid #1ed760;
+	background-color: #1ed760; 
+	width: 349px;
+
+}
+.lista {
+	margin-left:12%;
+	width: 77%;
+	margin-top: 39px;
+
+}
+.logolista{
+	width: 1%;
+
+
+}
+.btn-branco{
+	background-color: rgba(0,0,0,0);
+	width: 327px;
+	background-color:  #1ed760;
+	border:1px solid #1ed760;
+	margin-left: 5px;
+}
+.btn-branco:hover{
+	color:  black;
+	background-color: white;
+}
+
+/* RESPONSIVO batata*/
+
+/* 600 px */
+@media (max-width: 600px){
+
+	img{
+		width: 20px;
+	}
+
+	.slogan{
+		display:block;
+	}
+
+	.logo{
+		background-color: blue;
+	}
+
+}
+
+/* 400 px */
+
+@media (max-width: 400px){
+	img{
+		display: none;
+	}
+	.lista{
+		display: block;
+	}
+}
+
